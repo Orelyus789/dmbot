@@ -1,5 +1,3 @@
-<p align="center"><img src="https://spportcovid19patient.000webhostapp.com/DIpuNTI.jpg"></p>
-
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
 <img src="https://img.shields.io/badge/Docker-✔-blue.svg?style=plastic">
@@ -22,7 +20,7 @@
 
 
 **This tool is a Proof of Concept and is for Educational Purposes Only, We don't supoort it for spamming or any kind of abusing of any member.**
-**Don't spread any fake promotions**
+**Don't spread any fake promotions.**
 
 ## Usage
 This is a Mass DM Bot for your discord server. It will DM the annoucements to all the members of your server
