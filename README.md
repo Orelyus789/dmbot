@@ -1,24 +1,3 @@
-<p align="center">
-<img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
-<img src="https://img.shields.io/badge/Docker-✔-blue.svg?style=plastic">
-</p>
-
-<p align="center">
-  <a href="https://twitter.com/jeopardy4u"><b>Twitter</b></a>
-  <span> - </span>
-  <a href="https://instagram.com/loathfaith"><b>Instagram</b></a>
-  <span> - </span>
-  <a href="https://github.com/loathsomeguy"><b>Tej's Page</b></a>
-</p>
-
-<p align="center">
-  <br>
-  <b>Available in</b>
-  <br>
-  <img src="https://i.imgur.com/1wJVDV5.png">
-</p>
-
-
 **This tool is a Proof of Concept and is for Educational Purposes Only, We don't supoort it for spamming or any kind of abusing of any member.**
 **Don't spread any fake promotions.**
 
