@@ -20,16 +20,7 @@
   <img src="https://i.imgur.com/1wJVDV5.png">
 </p>
 
-Concept behind Seeker is simple, just like we host phishing pages to get credentials why not host a fake page that requests your location like many popular location based websites. Contact for more on <a href="https://instagram.com/loathfaith"> Tej's Page </a>.Seeker Hosts a fake website on **In Built PHP Server** and uses **Serveo** to generate a link which we will forward to the target, website asks for Location Permission and if the target allows it, we can get :
-
-* Longitude
-* Latitude
-* Accuracy
-* Altitude - Not always available
-* Direction - Only available if user is moving
-* Speed - Only available if user is moving
-
-Along with Location Information we also get **Device Information** without any permissions :
+Concept behind Seeker is simple, just like we
 
 * Operating System
 * Platform
@@ -105,60 +96,6 @@ chmod 777 termux_install.sh
 
 ## Usage
 
-```bash
-python3 seeker.py -h
-
-usage: seeker.py [-h] [-s SUBDOMAIN]
-
-optional arguments:
-  -h, --help                              show this help message and exit
-  -s SUBDOMAIN, --subdomain Subdomain 	  Provide Subdomain for Serveo URL ( Optional )
-  -k KML, --kml KML                       Provide KML Filename ( Optional )
-  -t TUNNEL, --tunnel TUNNEL              Specify Tunnel Mode [manual]
-
-# Example
-
-# SERVEO 
-########
-python3 seeker.py
-
-# NGROK ETC.
-############
-
-# In First Terminal Start seeker in Manual mode like this
-python3 seeker.py -t manual
-
-# In Second Terminal Start Ngrok or any other tunnel service on port 8080
-./ngrok http 8080
-
-#-----------------------------------#
-
-# Subdomain
-########### 
-python3 seeker.py --subdomain google
-python3 seeker.py --tunnel manual --subdomain zomato
-
-#-----------------------------------#
-
-# Docker Usage
-##############
-
-# SERVEO
-########
-docker run -t --rm loathsomeguy/seeker
-
-# NGROK
-#######
-
-# Step 1
-docker network create ngroknet
-
-# Step 2
-docker run --rm -t --net ngroknet --name seeker loathsomeguy/seeker python3 seeker.py -t manual
-
-# Step 3
-docker run --rm -t --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:8080
-```
 
 ## Known Problems
 
